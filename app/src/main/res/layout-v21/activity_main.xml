@@ -25,8 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="34.5sp"
-            android:gravity="end"
-            android:background="@color/colorWhite" />
+            android:background="@color/colorWhite"
+            android:gravity="end" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,6 +46,7 @@
                 android:layout_toEndOf="@+id/btn1"
                 android:text="2"
                 android:textColor="@android:color/holo_blue_bright" />
+
             <Button
                 android:id="@+id/btn3"
                 android:layout_width="wrap_content"
@@ -53,6 +54,7 @@
                 android:layout_toEndOf="@+id/btn2"
                 android:text="3"
                 android:textColor="@android:color/holo_blue_bright" />
+
             <Button
                 android:id="@+id/btnPlus"
                 android:layout_width="wrap_content"
@@ -61,6 +63,7 @@
                 android:text="+"
                 android:textColor="@android:color/holo_red_light" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -79,6 +82,7 @@
                 android:layout_toEndOf="@+id/btn4"
                 android:text="5"
                 android:textColor="@android:color/holo_blue_bright" />
+
             <Button
                 android:id="@+id/btn6"
                 android:layout_width="wrap_content"
@@ -86,6 +90,7 @@
                 android:layout_toEndOf="@+id/btn5"
                 android:text="6"
                 android:textColor="@android:color/holo_blue_bright" />
+
             <Button
                 android:id="@+id/btnMinus"
                 android:layout_width="wrap_content"
@@ -94,6 +99,7 @@
                 android:text="-"
                 android:textColor="@android:color/holo_red_light" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -112,6 +118,7 @@
                 android:layout_toEndOf="@+id/btn7"
                 android:text="8"
                 android:textColor="@android:color/holo_blue_bright" />
+
             <Button
                 android:id="@+id/btn9"
                 android:layout_width="wrap_content"
@@ -119,6 +126,7 @@
                 android:layout_toEndOf="@+id/btn8"
                 android:text="9"
                 android:textColor="@android:color/holo_blue_bright" />
+
             <Button
                 android:id="@+id/btnMultiple"
                 android:layout_width="wrap_content"
@@ -127,6 +135,7 @@
                 android:text="*"
                 android:textColor="@android:color/holo_red_light" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -145,6 +154,7 @@
                 android:layout_toEndOf="@+id/btn0"
                 android:text="."
                 android:textColor="@android:color/holo_blue_bright" />
+
             <Button
                 android:id="@+id/btnResult"
                 android:layout_width="wrap_content"
@@ -152,6 +162,7 @@
                 android:layout_toEndOf="@+id/btnDot"
                 android:text="="
                 android:textColor="@android:color/holo_red_light" />
+
             <Button
                 android:id="@+id/btnDivide"
                 android:layout_width="wrap_content"
@@ -160,12 +171,41 @@
                 android:text="%"
                 android:textColor="@android:color/holo_red_light" />
         </LinearLayout>
+
         <Button
             android:id="@+id/btnClear"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:text="Clear"
-            />
+            android:text="Clear" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnPower"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                />
+
+            <Button
+                android:id="@+id/btnLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+
+                />
+
+            <Button
+                android:id="@+id/btnRoot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                />
+        </LinearLayout>
+
+
     </LinearLayout>
 </LinearLayout>
