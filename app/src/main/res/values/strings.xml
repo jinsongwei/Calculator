@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="helloString">Hello World!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_your_name">Calculator</string>
+    <string name="set_name">set name</string>
+    <string name="default_name">default name</string>
+    <string name="title">Calculator</string>
+</resources>
